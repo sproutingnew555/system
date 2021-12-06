@@ -1,0 +1,14 @@
+/*版权所有：Jackying*/
+/*QQ：yjc_com@163.com(270863798)*/
+/*E-mail（msn）:admin@anan360.cn*/
+/*个人网站：http://www.anan360.cn    http://www.m-virus.com*/
+/*===========================上面为版权信息，请保留==============================================*/
+body{background-color: #F4FBF4;	margin: 0px;margin-left: 4px;padding: 0px;}
+body,td,th{font-family: 新宋体, 宋体, 仿宋_GB2312;font-size: 12px;}
+#admin-mainnav{display: block;width: 140px;margin-top: 8px;margin-right: 12px;margin-bottom: 8px;margin-left: 8px;clear: both;float: none;height: auto;}
+#admin-mainnav dt{font-weight: bold;color: #660;text-decoration: none;background-color: #F4FFEC;line-height: 25px;display: block;clear: both;float: none;height: 25px;width: 138px;border: 1px dashed #ABABAB;}
+#admin-mainnav dt a{display: block;line-height: 25px;font-weight: bold;color: #666600;text-decoration: none;height: 25px;width: 100px;float: left;}
+#admin-mainnav dt img{display: block;height: 16px;width: 16px;float: left;padding-top: 5px;padding-right: 16px;padding-bottom: 4px;padding-left: 6px;}
+#admin-mainnav dd{display: block;clear: both;float: none;height: auto;width: 100%;padding: 0px;line-height: 20px;margin-top: 0px;margin-right: 0px;margin-left: 0px;}
+#admin-mainnav dd a{display: block;width: 118px;padding-left: 22px;text-decoration: none;color: #000;background-image: url(../images/arr4.gif);background-repeat: no-repeat;background-position: 10px center;margin-bottom: 1px;line-height: 25px;height: 25px;}
+#admin-mainnav dd a:hover{color: #ff0000;}

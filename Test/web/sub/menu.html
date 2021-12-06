@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>高校科研管理系统</title>
+<meta name="keywords" content="用户管理,JSP,JDBC" />
+<meta name="description" content="JSP开发的用户信息管理系统" />
+<link href="../css/leftmenu.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="../js/jquery.js"></script>
+<script type="text/javascript">
+function expandMenu(menu_id,img_id){
+var menuObj = $("#"+menu_id);
+var imgObj= $("#"+img_id);
+if(menuObj.css("display") == 'none'){
+menuObj.css('display',"");
+imgObj.attr('src',"images/open.png");
+}else{
+		menuObj.css('display',"none");
+imgObj.attr('src',"images/close.png");
+}
+}
+</script>
+</head>
+<body>
+<table width="160" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td height="500" valign="top" background="../images/idnbg1.gif">
+<!--导航菜单开始 -->
+<dl id="admin-mainnav">
+<dt><img id="img_1" src="../images/open.png" /><a onFocus="this.blur()" href="javascript:void(null)" onClick="expandMenu('menu_1','img_1')">用户管理</A></dt>
+<dd id="menu_1">
+<A title="用户添加" href="../user/userAdd.jsp" target="main">添加用户</A>
+<A title="用户管理" href="../user/search.jsp" target="main">查询用户</A>
+</dd>	
+
+<dt><img id="img_7" src="images/open.png" /><a onFocus="this.blur()" href="javascript:void(null)" onClick="expandMenu('menu_7','img_7')">系统信息</A></dt>
+<dd id="menu_7">
+<p>Java Web应用开发与实践<br />
+<br/>
+
+用户信息管理系统<br />
+
+JSP + JDBC实现
+<br/>
+<br/>
+作者：梁胜彬<br/>
+<br/>
+Copyright &copy; 2015
+
+</p></dd>
+</dl>
+<!--导航菜单结束 -->
+</td></tr><tr><td height="7" background="images/idnbgfoot.gif"></td></tr></table>
+</body></html>
